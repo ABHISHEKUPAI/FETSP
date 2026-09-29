@@ -1,0 +1,10 @@
+id,goal_name,target_amount,saved_amount,deadline,priority
+1,Emergency fund,50000.00,32000.00,2026-12-31,High
+2,New laptop,80000.00,45000.00,2027-03-31,High
+3,Goa trip,15000.00,15000.00,2026-10-15,Medium
+4,Online course,6000.00,2500.00,2026-11-30,Medium
+5,Phone upgrade,30000.00,9000.00,2027-06-30,Low
+6,Gym membership,8000.00,8000.00,2026-08-31,Low
+7,Semester books,4000.00,1500.00,2026-10-31,Medium
+8,Gift for parents,10000.00,3000.00,2026-12-15,Medium
+9,Certification exam,12000.00,4000.00,,High

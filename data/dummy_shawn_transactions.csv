@@ -1,0 +1,41 @@
+id,date,category,description,amount,payment_mode
+1,2026-06-01,Rent,Room rent,6500.00,Net Banking
+2,2026-06-10,Health,Doctor visit,367.13,Cash
+3,2026-06-11,Shopping,Backpack,2087.45,Card
+4,2026-06-16,Shopping,Clothes,2353.88,UPI
+5,2026-06-16,Utilities,Electricity bill,503.77,Cash
+6,2026-06-19,Transport,Bus pass,415.72,Card
+7,2026-07-01,Rent,Room rent,6500.00,Net Banking
+8,2026-07-01,Transport,Bus pass,349.91,Net Banking
+9,2026-07-01,Education,Online course,791.25,Cash
+10,2026-07-03,Shopping,Clothes,1655.65,UPI
+11,2026-07-03,Transport,Metro top-up,455.80,Cash
+12,2026-07-04,,Pharmacy,576.20,UPI
+13,2026-07-07,Health,Pharmacy,631.17,UPI
+14,2026-07-12,Education,Books,572.09,UPI
+15,2026-07-15,Education,Online course,230.85,UPI
+16,2026-07-18,Education,Printouts,424.96,UPI
+17,2026-07-23,Health,Doctor visit,253.52,UPI
+18,2026-07-26,Shopping,Headphones,1194.68,UPI
+19,2026-07-30,Shopping,Backpack,812.07,Cash
+20,2026-08-01,Rent,Room rent,6500.00,Net Banking
+21,2026-08-04,Health,Pharmacy,629.05,UPI
+22,2026-08-11,Food,Dinner with friends,380.06,Card
+23,2026-08-16,Food,Coffee,53.03,UPI
+24,2026-08-17,Food,Dinner with friends,240.33,UPI
+25,2026-08-21,Transport,Auto fare,481.49,Cash
+26,2026-08-22,Education,Printouts,1237.49,UPI
+27,2026-08-25,Food,Groceries,12x,UPI
+28,2026-08-26,Transport,Metro top-up,430.04,Net Banking
+29,2026-08-29,Shopping,Backpack,1049.04,UPI
+30,2026-08-30,Shopping,Backpack,1548.80,Cash
+31,2026-09-01,Rent,Room rent,6500.00,Net Banking
+32,2026-09-02,Food,Dinner with friends,438.47,UPI
+33,2026-09-07,Utilities,Mobile recharge,577.10,Card
+34,2026-09-08,Education,Online course,496.64,UPI
+35,2026-09-16,Shopping,,906.64,UPI
+36,2026-09-18,Utilities,Electricity bill,622.21,UPI
+37,2026-09-22,Health,Doctor visit,248.84,Cash
+38,2026-09-23,Entertainment,Gaming credits,401.83,UPI
+39,2026-09-23,Shopping,Backpack,2377.19,Net Banking
+40,2026-09-26,Health,Pharmacy,709.36,UPI
