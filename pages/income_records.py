@@ -1,8 +1,3 @@
-"""Gautam's page — PLACEHOLDER dataset: income records (dummy data).
-
-Layout: the CRUD tabs are filled first so that the read/analysis tabs always
-show the freshest CSV content (no extra page reload is needed after a change).
-"""
 from datetime import date, datetime
 
 import plotly.express as px
@@ -18,8 +13,8 @@ st.set_page_config(page_title="Gautam – Income", page_icon="💵", layout="wid
 
 manager = IncomeManager()
 
-st.title("💵 Gautam's Page — Income Records")
-placeholder_banner("Gautam", "income records", manager)
+st.title("Income Records")
+placeholder_banner("income records", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(

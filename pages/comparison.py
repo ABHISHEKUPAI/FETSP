@@ -1,8 +1,3 @@
-"""Abhishek's page — PLACEHOLDER dataset: monthly budgets vs actual spending (dummy data).
-
-Layout: the CRUD tabs are filled first so that the read/analysis tabs always
-show the freshest CSV content (no extra page reload is needed after a change).
-"""
 from datetime import date, datetime
 
 import plotly.express as px
@@ -17,8 +12,8 @@ st.set_page_config(page_title="Abhishek – Budgets", page_icon="📒", layout="
 
 manager = BudgetManager()
 
-st.title("📒 Abhishek's Page — Monthly Budgets")
-placeholder_banner("Abhishek", "monthly budgets vs actual spending", manager)
+st.title("📒 Monthly Budgets")
+placeholder_banner("monthly budgets vs actual spending", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(
