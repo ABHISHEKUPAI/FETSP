@@ -29,13 +29,6 @@ def index_of(options, value):
 
 
 # ------------------------------------------------------------------- messages
-def placeholder_banner(owner, description, manager):
-    if PLACEHOLDER_DATA:
-        st.warning(
-            f"⚠️ **PLACEHOLDER DATA** — this page uses a temporary dummy dataset "
-            f"({description}, `data/{manager.path.name}`). The columns and values are only for "
-            f"testing the app and will be replaced when {owner}'s real CSV is provided."
-        )
 
 
 def load_or_stop(manager):

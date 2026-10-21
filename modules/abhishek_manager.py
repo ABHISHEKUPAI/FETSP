@@ -1,8 +1,3 @@
-"""Abhishek's data manager.
-
-PLACEHOLDER SCHEMA — monthly budgets vs actual spending (dummy data).
-Replace the columns, validation and statistics when the real CSV is provided.
-"""
 import numpy as np
 import pandas as pd
 

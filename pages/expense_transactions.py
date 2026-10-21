@@ -5,7 +5,7 @@ import streamlit as st
 
 from modules.csv_manager import DataError
 from modules.helpers import (build_report, date_filter, index_of, load_or_stop,
-                             multiselect_filter, placeholder_banner, search_filter,
+                             multiselect_filter, search_filter,
                              show_metrics, show_problem_warning, to_date, to_float)
 from modules.shawn_manager import CATEGORIES, PAYMENT_MODES, TransactionManager
 
@@ -14,7 +14,6 @@ st.set_page_config(page_title="Shawn – Transactions", page_icon="🧾", layout
 manager = TransactionManager()
 
 st.title("Expense Transactions")
-placeholder_banner("expense_Transactions","expense transactions", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(

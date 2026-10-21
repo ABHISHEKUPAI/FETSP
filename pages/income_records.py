@@ -6,7 +6,7 @@ import streamlit as st
 from modules.csv_manager import DataError
 from modules.gautam_manager import INCOME_TYPES, IncomeManager
 from modules.helpers import (build_report, date_filter, index_of, load_or_stop,
-                             multiselect_filter, placeholder_banner, search_filter,
+                             multiselect_filter, search_filter,
                              show_metrics, show_problem_warning, to_date, to_float)
 
 st.set_page_config(page_title="Gautam – Income", page_icon="💵", layout="wide")
@@ -14,7 +14,6 @@ st.set_page_config(page_title="Gautam – Income", page_icon="💵", layout="wid
 manager = IncomeManager()
 
 st.title("Income Records")
-placeholder_banner("income_records","income records", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(

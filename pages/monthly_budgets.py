@@ -6,14 +6,13 @@ import streamlit as st
 from modules.abhishek_manager import CATEGORIES, BudgetManager
 from modules.csv_manager import DataError
 from modules.helpers import (build_report, index_of, load_or_stop, multiselect_filter,
-                             placeholder_banner, show_metrics, show_problem_warning, to_float)
+                              show_metrics, show_problem_warning, to_float)
 
 st.set_page_config(page_title="Abhishek – Budgets", page_icon="📒", layout="wide")
 
 manager = BudgetManager()
 
 st.title("Monthly Budgets")
-placeholder_banner("monthly_budgets","monthly budgets vs actual spending", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(
