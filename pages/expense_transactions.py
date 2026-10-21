@@ -14,11 +14,11 @@ st.set_page_config(page_title="Shawn – Transactions", page_icon="🧾", layout
 manager = TransactionManager()
 
 st.title("🧾Expense Transactions")
-placeholder_banner("expense transactions", manager)
+placeholder_banner("expense_Transactions","expense transactions", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(
-    ["📋 View Data", "➕ Add Record", "✏️ Update Record", "🗑️ Delete Record", "📊 Analytics", "📄 Report"]
+    ["View Data", "Add Record", "Update Record", "Delete Record", "Analytics", "Report"]
 )
 
 # ------------------------------------------------------------------ CREATE

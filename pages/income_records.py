@@ -14,11 +14,11 @@ st.set_page_config(page_title="Gautam – Income", page_icon="💵", layout="wid
 manager = IncomeManager()
 
 st.title("Income Records")
-placeholder_banner("income records", manager)
+placeholder_banner("income_records","income records", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(
-    ["📋 View Data", "➕ Add Record", "✏️ Update Record", "🗑️ Delete Record", "📊 Analytics", "📄 Report"]
+    ["View Data", "Add Record", "Update Record", "Delete Record", "Analytics", "Report"]
 )
 
 # ------------------------------------------------------------------ CREATE

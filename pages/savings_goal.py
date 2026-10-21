@@ -14,11 +14,11 @@ st.set_page_config(page_title="Anhal – Savings Goals", page_icon="🎯", layou
 manager = GoalManager()
 
 st.title("🎯Savings Goals")
-placeholder_banner("savings goals", manager)
+placeholder_banner("savings_goal","savings goals", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
 tab_view, tab_add, tab_update, tab_delete, tab_stats, tab_report = st.tabs(
-    ["📋 View Data", "➕ Add Record", "✏️ Update Record", "🗑️ Delete Record", "📊 Analytics", "📄 Report"]
+    ["View Data", "Add Record", "Update Record", "Delete Record", "Analytics", "Report"]
 )
 
 # ------------------------------------------------------------------ CREATE

@@ -54,10 +54,10 @@ st.markdown(
 # ----------------------------------------------------------------- navigation
 st.header("Go to a student page")
 pages = [
-    ("pages/1_Shawn.py", "🧾 Shawn's page", TransactionManager()),
-    ("pages/2_Gautam.py", "💵 Gautam's page", IncomeManager()),
-    ("pages/3_Abhishek.py", "📒 Abhishek's page", BudgetManager()),
-    ("pages/4_Anhal.py", "🎯 Anhal's page", GoalManager()),
+    ("pages/expense_transactions.py", "Shawn's page", TransactionManager()),
+    ("pages/income_records.py", " Gautam's page", IncomeManager()),
+    ("pages/monthly_budgets.py", "Abhishek's page", BudgetManager()),
+    ("pages/savings_goal.py", "Anhal's page", GoalManager()),
 ]
 columns = st.columns(4)
 for column, (page_path, label, manager) in zip(columns, pages):
