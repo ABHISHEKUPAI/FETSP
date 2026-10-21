@@ -12,7 +12,7 @@ st.set_page_config(page_title="Abhishek – Budgets", page_icon="📒", layout="
 
 manager = BudgetManager()
 
-st.title("📒 Monthly Budgets")
+st.title("Monthly Budgets")
 placeholder_banner("monthly_budgets","monthly budgets vs actual spending", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 

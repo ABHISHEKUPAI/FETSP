@@ -13,7 +13,7 @@ st.set_page_config(page_title="Shawn – Transactions", page_icon="🧾", layout
 
 manager = TransactionManager()
 
-st.title("🧾Expense Transactions")
+st.title("Expense Transactions")
 placeholder_banner("expense_Transactions","expense transactions", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 

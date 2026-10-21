@@ -13,7 +13,7 @@ st.set_page_config(page_title="Anhal – Savings Goals", page_icon="🎯", layou
 
 manager = GoalManager()
 
-st.title("🎯Savings Goals")
+st.title("Savings Goals")
 placeholder_banner("savings_goal","savings goals", manager)
 load_or_stop(manager)  # health check: stops here with a friendly message if the CSV is unusable
 
