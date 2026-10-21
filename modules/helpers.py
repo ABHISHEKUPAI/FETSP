@@ -119,7 +119,7 @@ def build_report(title, owner, manager, total_rows, shown_rows, problem_count,
         f"Dataset file              : data/{manager.path.name}",
     ]
     if PLACEHOLDER_DATA:
-        lines.append("NOTE                      : PLACEHOLDER dummy data (not the final dataset)")
+        lines.append("NOTE                      : Generated Sample Dataset")
     lines += [
         "",
         f"Rows in CSV (total)       : {total_rows}",
